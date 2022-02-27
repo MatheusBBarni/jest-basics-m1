@@ -1,0 +1,14 @@
+{
+  "name": "jest-basics-m1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
