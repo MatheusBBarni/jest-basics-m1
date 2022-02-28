@@ -2,13 +2,6 @@
 
 exports[`Cart checkout() should return an object with the total and the list of items 1`] = `
 Object {
-  "items": undefined,
-  "total": undefined,
-}
-`;
-
-exports[`Cart summary() should return an object with the total and the list of items 1`] = `
-Object {
   "items": Array [
     Object {
       "product": Object {
@@ -26,5 +19,32 @@ Object {
     },
   ],
   "total": 231780,
+}
+`;
+
+exports[`Cart summary() should return an object with the total and the list of items 1`] = `
+Object {
+  "formatted": "R$2,317.80",
+  "items": Array [
+    Object {
+      "product": Object {
+        "price": 35388,
+        "title": "Adidas Men",
+      },
+      "quantity": 3,
+    },
+    Object {
+      "product": Object {
+        "price": 41872,
+        "title": "Adidas Women",
+      },
+      "quantity": 3,
+    },
+  ],
+  "total": Object {
+    "amount": 231780,
+    "currency": "BRL",
+    "precision": 2,
+  },
 }
 `;
